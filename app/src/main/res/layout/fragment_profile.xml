@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/profil_awa"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/awa"
+            android:scaleType="fitCenter"
+
+
+            android:layout_marginStart="15dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+            android:gravity="bottom"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="25dp"
+
+            android:text="4"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+
+            android:gravity="bottom"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="50dp"
+
+            android:text="Posts"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+            android:gravity="bottom"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="25dp"
+
+            android:text="68"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+            android:gravity="bottom"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="50dp"
+
+            android:text="Followers"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+            android:gravity="bottom"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="25dp"
+
+            android:text="24"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+            android:gravity="bottom"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="50dp"
+
+            android:text="Following"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/zamok"
+
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/arow_down"
+
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/plus"
+
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/menu"
+
+        >
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+
+        android:gravity="bottom"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+
+        android:text="__Tanjiro__"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+
+        >
+
+    </TextView>
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+            android:gravity="bottom"
+            android:layout_marginStart="10dp"
+
+            android:text="Tanjiro Kamado"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+
+            android:text="If you want to be strong,learn how to fight alone"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+        </TextView>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/rectangle"
+
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="bottom"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="104dp"
+
+            android:text="Edit Profile"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/grid_icon"
+
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/user_photo"
+            >
+        </ImageView>
+
+    </RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_marginTop="380dp"
+    >
+
+    <ImageView
+        android:id="@+id/profile_photo1"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rec11"
+
+        >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/profile_photo2"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/profile_photo1"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/profile_tanjiro"></ImageView>
+
+    <ImageView
+        android:id="@+id/profile_photo3"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/profile_photo2"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/profile_cat"></ImageView>
+
+    <ImageView
+        android:id="@+id/profile_photo4"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+
+        android:layout_marginTop="136dp"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/profile_tanjiro2"></ImageView>
+
+
+
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>
